@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  screenCushion: 0
+  screenCushion: 70
 --- !u!50 &1844152823
 Rigidbody2D:
   serializedVersion: 5
