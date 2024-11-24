@@ -1,12 +1,25 @@
 using UnityEngine;
+using System.Collections;
+
+using UnityEngine.SceneManagement;
 
 public class SceneFade : MonoBehaviour
 {
 
     public Animator animator;
-    //public GameObject button;
 
-    // Update is called once per frame
+    void Start()
+    {
+        
+    }
+
+    IEnumerator Pause()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("PracticeScene_Monika");
+
+    }
+
     void Update()
     {
         if(Input.GetMouseButtonDown(0))
@@ -19,6 +32,7 @@ public class SceneFade : MonoBehaviour
     public void FadeToLevel(string levelName)
     {
         animator.SetTrigger("FadeOut");
+        StartCoroutine(Pause());
         print("enters fadetolevel");
     }
 }
