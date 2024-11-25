@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 788dfbe622db75a40948c72d812126cc
+guid: 7a4476c7b4e07cb4da3ca8e7ccf3e958
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -758422326898253109
-    second: normal_idle_side_0
+      213: 1128828241592452677
+    second: mini_menu_textcontrols_0
   - first:
-      213: 5244893269069251526
-    second: normal_idle_side_1
+      213: 4448075494873621395
+    second: mini_menu_textcontrols_1
   - first:
-      213: 5462436172633731272
-    second: normal_idle_side_2
+      213: -2846634099906904369
+    second: mini_menu_textcontrols_2
   - first:
-      213: 3096009282527972791
-    second: normal_idle_side_3
+      213: -7497083365554682924
+    second: mini_menu_textcontrols_3
   - first:
-      213: -5640643543760232169
-    second: normal_idle_side_4
+      213: 2245534225925218171
+    second: mini_menu_textcontrols_4
   - first:
-      213: 5452690945689824209
-    second: normal_idle_side_5
+      213: -671149611060179479
+    second: mini_menu_textcontrols_5
   - first:
-      213: -10617750240370362
-    second: normal_idle_side_6
+      213: 6892328018934543601
+    second: mini_menu_textcontrols_6
   - first:
-      213: -8237578470330845808
-    second: normal_idle_side_7
+      213: 7768387471101800424
+    second: mini_menu_textcontrols_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: normal_idle_side_0
+      name: mini_menu_textcontrols_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 27
-        height: 40
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc2218779ea8975f0800000000000000
-      internalID: -758422326898253109
+      spriteID: 5460c801e476aaf00800000000000000
+      internalID: 1128828241592452677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_1
+      name: mini_menu_textcontrols_1
       rect:
         serializedVersion: 2
-        x: 47
+        x: 9
         y: 0
-        width: 27
-        height: 40
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c3c5bbb3aa99c840800000000000000
-      internalID: 5244893269069251526
+      spriteID: 393ef0e781dbabd30800000000000000
+      internalID: 4448075494873621395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_2
+      name: mini_menu_textcontrols_2
       rect:
         serializedVersion: 2
-        x: 87
+        x: 19
         y: 0
-        width: 27
-        height: 40
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c0f31ef1c87ecb40800000000000000
-      internalID: 5462436172633731272
+      spriteID: fcef8854e59be78d0800000000000000
+      internalID: -2846634099906904369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_3
+      name: mini_menu_textcontrols_3
       rect:
         serializedVersion: 2
-        x: 127
+        x: 29
         y: 0
-        width: 26
-        height: 40
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bd44620a0c37fa20800000000000000
-      internalID: 3096009282527972791
+      spriteID: 4d38f98766205f790800000000000000
+      internalID: -7497083365554682924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_4
+      name: mini_menu_textcontrols_4
       rect:
         serializedVersion: 2
-        x: 167
+        x: 39
         y: 0
-        width: 26
-        height: 40
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7112295159868b1b0800000000000000
-      internalID: -5640643543760232169
+      spriteID: b7f114b2b7db92f10800000000000000
+      internalID: 2245534225925218171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_5
+      name: mini_menu_textcontrols_5
       rect:
         serializedVersion: 2
-        x: 207
+        x: 49
         y: 0
-        width: 26
-        height: 40
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dba4d78689dbab40800000000000000
-      internalID: 5452690945689824209
+      spriteID: 9edcd911cf89fa6f0800000000000000
+      internalID: -671149611060179479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_6
+      name: mini_menu_textcontrols_6
       rect:
         serializedVersion: 2
-        x: 247
+        x: 59
         y: 0
-        width: 26
-        height: 40
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 641eb9066374adff0800000000000000
-      internalID: -10617750240370362
+      spriteID: 1f4b01ce0d776af50800000000000000
+      internalID: 6892328018934543601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_7
+      name: mini_menu_textcontrols_7
       rect:
         serializedVersion: 2
-        x: 287
+        x: 69
         y: 0
-        width: 27
-        height: 40
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 095368a960e3ead80800000000000000
-      internalID: -8237578470330845808
+      spriteID: 8ef2e9c0f3bdecb60800000000000000
+      internalID: 7768387471101800424
       vertices: []
       indices: 
       edges: []
@@ -309,15 +309,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      normal_idle_side_0: -758422326898253109
-      normal_idle_side_1: 5244893269069251526
-      normal_idle_side_2: 5462436172633731272
-      normal_idle_side_3: 3096009282527972791
-      normal_idle_side_4: -5640643543760232169
-      normal_idle_side_5: 5452690945689824209
-      normal_idle_side_6: -10617750240370362
-      normal_idle_side_7: -8237578470330845808
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

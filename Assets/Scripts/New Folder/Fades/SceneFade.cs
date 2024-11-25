@@ -11,7 +11,7 @@ public class SceneFade : MonoBehaviour
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("PracticeScene_Monika");
+        SceneManager.LoadScene("Scene 1 Testing");
 
     }
 
@@ -19,7 +19,7 @@ public class SceneFade : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            FadeToLevel("PracticeScene_Monika");
+            FadeToLevel("Scene 1 Testing");
             //print("enters update");
         }
     }
