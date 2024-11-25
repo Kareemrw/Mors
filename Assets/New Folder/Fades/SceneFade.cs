@@ -8,11 +8,6 @@ public class SceneFade : MonoBehaviour
 
     public Animator animator;
 
-    void Start()
-    {
-        
-    }
-
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(1);
@@ -25,7 +20,7 @@ public class SceneFade : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             FadeToLevel("PracticeScene_Monika");
-            print("enters update");
+            //print("enters update");
         }
     }
 
@@ -33,6 +28,6 @@ public class SceneFade : MonoBehaviour
     {
         animator.SetTrigger("FadeOut");
         StartCoroutine(Pause());
-        print("enters fadetolevel");
+        //print("enters fadetolevel");
     }
 }
