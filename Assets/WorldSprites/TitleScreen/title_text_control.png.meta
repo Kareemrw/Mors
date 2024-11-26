@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 987a03106780fb545a5db50288d6014f
+guid: c664984ee9d9b3e4593a36b7298d8f7a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7981914150258611170
-    second: title_hovertext_controls_0
+      213: -8637885699175783288
+    second: title_text_control_0
   - first:
-      213: -3557181850697611236
-    second: title_hovertext_controls_1
+      213: 8567593014667960637
+    second: title_text_control_1
   - first:
-      213: -4747320698182399198
-    second: title_hovertext_controls_2
+      213: 719734907648232549
+    second: title_text_control_2
   - first:
-      213: 9184910830591821943
-    second: title_hovertext_controls_3
+      213: -970526999739127214
+    second: title_text_control_3
   - first:
-      213: -4003950785365936920
-    second: title_hovertext_controls_4
+      213: 6971848322894936344
+    second: title_text_control_4
   - first:
-      213: -4695601353968893829
-    second: title_hovertext_controls_5
+      213: -3339393328578185691
+    second: title_text_control_5
   - first:
-      213: -3999746265812644173
-    second: title_hovertext_controls_6
+      213: 4625808834780098388
+    second: title_text_control_6
   - first:
-      213: -7567400695836003680
-    second: title_hovertext_controls_7
+      213: 7558126454694799934
+    second: title_text_control_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: title_hovertext_controls_0
+      name: title_text_control_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,14 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e314d131a475ce60800000000000000
-      internalID: 7981914150258611170
+      spriteID: 884633ad8b0102880800000000000000
+      internalID: -8637885699175783288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_hovertext_controls_1
+      name: title_text_control_1
       rect:
         serializedVersion: 2
         x: 15
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c18c3bb14f952aec0800000000000000
-      internalID: -3557181850697611236
+      spriteID: d31e66b247436e670800000000000000
+      internalID: 8567593014667960637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_hovertext_controls_2
+      name: title_text_control_2
       rect:
         serializedVersion: 2
         x: 31
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22b8af53af02e1eb0800000000000000
-      internalID: -4747320698182399198
+      spriteID: 56c42dec5130df900800000000000000
+      internalID: 719734907648232549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_hovertext_controls_3
+      name: title_text_control_3
       rect:
         serializedVersion: 2
         x: 47
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77840179cbb577f70800000000000000
-      internalID: 9184910830591821943
+      spriteID: 25aaf97f5def782f0800000000000000
+      internalID: -970526999739127214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_hovertext_controls_4
+      name: title_text_control_4
       rect:
         serializedVersion: 2
         x: 63
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e4fd1c79fb1f68c0800000000000000
-      internalID: -4003950785365936920
+      spriteID: 8193e0a7c1bf0c060800000000000000
+      internalID: 6971848322894936344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_hovertext_controls_5
+      name: title_text_control_5
       rect:
         serializedVersion: 2
         x: 79
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7047d9627fd5deb0800000000000000
-      internalID: -4695601353968893829
+      spriteID: 526b9c4e57718a1d0800000000000000
+      internalID: -3339393328578185691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_hovertext_controls_6
+      name: title_text_control_6
       rect:
         serializedVersion: 2
         x: 95
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3beca8a76fb0e78c0800000000000000
-      internalID: -3999746265812644173
+      spriteID: 45f6eeb60ac223040800000000000000
+      internalID: 4625808834780098388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_hovertext_controls_7
+      name: title_text_control_7
       rect:
         serializedVersion: 2
         x: 111
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a2b6a339213bf690800000000000000
-      internalID: -7567400695836003680
+      spriteID: e3ae09347fbd3e860800000000000000
+      internalID: 7558126454694799934
       vertices: []
       indices: 
       edges: []
@@ -310,14 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      title_hovertext_controls_0: 7981914150258611170
-      title_hovertext_controls_1: -3557181850697611236
-      title_hovertext_controls_2: -4747320698182399198
-      title_hovertext_controls_3: 9184910830591821943
-      title_hovertext_controls_4: -4003950785365936920
-      title_hovertext_controls_5: -4695601353968893829
-      title_hovertext_controls_6: -3999746265812644173
-      title_hovertext_controls_7: -7567400695836003680
+      title_text_control_0: -8637885699175783288
+      title_text_control_1: 8567593014667960637
+      title_text_control_2: 719734907648232549
+      title_text_control_3: -970526999739127214
+      title_text_control_4: 6971848322894936344
+      title_text_control_5: -3339393328578185691
+      title_text_control_6: 4625808834780098388
+      title_text_control_7: 7558126454694799934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
