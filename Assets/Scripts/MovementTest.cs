@@ -29,7 +29,12 @@ public class MovementTest : MonoBehaviour
             if (currentDialogue != null && !currentDialogue.IsDialogueActive())
             {
                 currentDialogue.StartDialogue();
+                
             }
+        }
+        if (currentDialogue != null && !currentDialogue.IsDialogueActive())
+        {
+            ActivateEKey(true); // Bring back "E" indicator if dialogue ended
         }
 
         // Movement input

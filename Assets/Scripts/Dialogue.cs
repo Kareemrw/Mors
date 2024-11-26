@@ -8,8 +8,8 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent; 
     public string[] lines;               
     public string repeatableLine = "Hello again!"; 
-    public float textSpeed = 0.03f;     
-
+    public float textSpeed = 0.03f;
+    public bool isTalking = false;
     private int index = 0;              
     private bool isDialogueActive = false;
     private bool isDialogueExhausted = false; 
@@ -41,6 +41,7 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        isTalking = true;
         if (textComponent == null)
         {
             EndDialogue();
@@ -98,6 +99,7 @@ public class Dialogue : MonoBehaviour
             textComponent.transform.parent.gameObject.SetActive(false);
         }
         isDialogueActive = false;
+        isTalking = false;
     }
 
     private string GetCurrentLine()
