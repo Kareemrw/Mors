@@ -18,8 +18,8 @@ public class Dialogue : MonoBehaviour
     {
         if (textComponent != null)
         {
-            textComponent.text = string.Empty;
-            textComponent.transform.parent.gameObject.SetActive(false); 
+            //textComponent.text = string.Empty;
+            //textComponent.transform.parent.gameObject.SetActive(false); 
         }
     }
 

@@ -14,7 +14,7 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
-        player = FindObjectOfType<MovementTest>(); // Correct assignment
+        trough =  FindFirstObjectByType<Trough>();
     }
 
     void Update()
@@ -22,6 +22,14 @@ public class NPC : MonoBehaviour
         // Handle dialogue activation
         if (canTalk && Input.GetKeyDown(KeyCode.E))
         {
+            if (trough.IsFull())
+            {
+                currentDialogue = specialDialogue;
+            }
+            else
+            {
+                currentDialogue = defaultDialogue;
+            }
             ActivateEKey(false);
             if (currentDialogue != null && !currentDialogue.IsDialogueActive())
             {
@@ -52,14 +60,7 @@ public class NPC : MonoBehaviour
             canTalk = true;
 
             // Check condition and set dialogue accordingly
-            if (player.full)
-            {
-                currentDialogue = specialDialogue;
-            }
-            else
-            {
-                currentDialogue = defaultDialogue;
-            }
+            
         }
     }
 
