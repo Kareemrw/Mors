@@ -1,88 +1,155 @@
-using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MovementTest : MonoBehaviour
 {
     private Rigidbody2D rb;
-
-    private bool canTalk = false;
-    private Dialogue currentDialogue;
     private float horizontal;
     private float vertical;
-
-    public float runSpeed = 20.0f;
+    public Animator animator;
+    Vector2 movement;
+    public float moveSpeed = 5f;
+    public bool hasItem = false;
+    public bool full = false;
+    private bool isPlayerNearby = false;
+    private bool isIntroMonologueActive = true; // Flag for intro monologue
+    private Trough nearbyTrough = null; // Reference to the nearby trough
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        StartCoroutine(StartIntroMonologue());
     }
 
     void Update()
     {
-        // Handle dialogue activation
-        if (canTalk && Input.GetKeyDown(KeyCode.E))
+        // Prevent movement during intro monologue or active dialogues
+        if (isIntroMonologueActive || IsAnyDialogueActive())
         {
-            ActivateEKey(false);
-            if (currentDialogue != null && !currentDialogue.IsDialogueActive())
-            {
-                currentDialogue.StartDialogue();
-                
-            }
-        }
-        if (currentDialogue != null && !currentDialogue.IsDialogueActive())
-        {
-            ActivateEKey(true); // Bring back "E" indicator if dialogue ended
+            movement = Vector2.zero;
+            animator.SetFloat("Speed", 0);
+            return;
         }
 
         // Movement input
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if (movement.sqrMagnitude > 0)
+        {
+            animator.SetFloat("LastInputX", movement.x);
+            animator.SetFloat("LastInputY", movement.y);
+        }
+
+        // Interact with objects
+        if (isPlayerNearby && Input.GetKeyDown(KeyCode.F))
+        {
+            HandleInteraction();
+        }
     }
 
     private void FixedUpdate()
     {
-        // Stop movement if dialogue is active
-        if (currentDialogue != null && currentDialogue.IsDialogueActive())
+        // Prevent movement during intro monologue or active dialogues
+        if (isIntroMonologueActive || IsAnyDialogueActive())
         {
             rb.linearVelocity = Vector2.zero;
+            return;
         }
-        else
+
+        // Move the player
+        rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private IEnumerator StartIntroMonologue()
+    {
+        Dialogue introDialogue = GetComponent<Dialogue>();
+        if (introDialogue != null)
         {
-            rb.linearVelocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+            introDialogue.StartDialogue();
+            while (introDialogue.IsDialogueActive())
+            {
+                yield return null; // Wait until the monologue ends
+            }
+        }
+
+        isIntroMonologueActive = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("River") && !hasItem)
+        {
+            ActivateFKey(true);
+            isPlayerNearby = true;
+        }
+        else if (other.CompareTag("Trough") && hasItem)
+        {
+            ActivateFKey(true);
+            isPlayerNearby = true;
+            nearbyTrough = other.GetComponent<Trough>(); // Store the specific trough reference
         }
     }
 
-    private void ActivateEKey(bool isActive, Transform npcTransform = null)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        npcTransform = npcTransform ?? currentDialogue?.transform;
-        Transform eKeyTransform = npcTransform?.Find("eKey");
-
-        if (eKeyTransform != null)
+        if (other.CompareTag("River") || other.CompareTag("Trough"))
         {
-            eKeyTransform.gameObject.SetActive(isActive);
+            ActivateFKey(false);
+            isPlayerNearby = false;
+
+            if (other.CompareTag("Trough"))
+            {
+                nearbyTrough = null; // Clear reference when leaving the trough
+            }
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void HandleInteraction()
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("NPC"))
+        if (isPlayerNearby)
         {
-            ActivateEKey(true, collision.transform);
-            canTalk = true;
-            currentDialogue = collision.GetComponent<Dialogue>();
+            if (!hasItem)
+            {
+                Debug.Log("Picked up water from the river.");
+                hasItem = true;
+                ActivateFKey(false);
+            }
+            else if (hasItem && nearbyTrough != null && !nearbyTrough.IsFull())
+            {
+                Debug.Log("Filled the trough with water.");
+                nearbyTrough.FillTrough();
+                full = true;
+                hasItem = false;
+                ActivateFKey(false);
+            }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void ActivateFKey(bool isActive)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("NPC"))
+        Transform fKeyTransform = transform.Find("fKey");
+        if (fKeyTransform != null)
         {
-            ActivateEKey(false, collision.transform);
-            canTalk = false;
-            currentDialogue = null; // Clear reference
+            fKeyTransform.gameObject.SetActive(isActive);
         }
+    }
+
+    private bool IsAnyDialogueActive()
+    {
+        Dialogue[] dialogues = FindObjectsOfType<Dialogue>();
+        foreach (Dialogue dialogue in dialogues)
+        {
+            if (dialogue.IsDialogueActive())
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

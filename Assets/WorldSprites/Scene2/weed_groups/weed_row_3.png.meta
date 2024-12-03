@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 788dfbe622db75a40948c72d812126cc
+guid: f66642bf98bab734d8a9b73d41467e17
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -758422326898253109
-    second: normal_idle_side_0
+      213: 8696345610160548460
+    second: weed_row_3_0
   - first:
-      213: 5244893269069251526
-    second: normal_idle_side_1
+      213: -7075441698610027739
+    second: weed_row_3_1
   - first:
-      213: 5462436172633731272
-    second: normal_idle_side_2
+      213: -6092937022592469772
+    second: weed_row_3_2
   - first:
-      213: 3096009282527972791
-    second: normal_idle_side_3
+      213: 7847734785986154192
+    second: weed_row_3_3
   - first:
-      213: -5640643543760232169
-    second: normal_idle_side_4
+      213: 8224062225569605348
+    second: weed_row_3_4
   - first:
-      213: 5452690945689824209
-    second: normal_idle_side_5
-  - first:
-      213: -10617750240370362
-    second: normal_idle_side_6
-  - first:
-      213: -8237578470330845808
-    second: normal_idle_side_7
+      213: 8876569615654093411
+    second: weed_row_3_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,177 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: normal_idle_side_0
+      name: weed_row_3_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 25
-        height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
+        x: 0
+        y: 3
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc2218779ea8975f0800000000000000
-      internalID: -758422326898253109
+      spriteID: c6aa5a9d140afa870800000000000000
+      internalID: 8696345610160548460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_1
+      name: weed_row_3_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 25
-        height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
+        x: 4
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c3c5bbb3aa99c840800000000000000
-      internalID: 5244893269069251526
+      spriteID: 523ec5d234bfecd90800000000000000
+      internalID: -7075441698610027739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_2
+      name: weed_row_3_2
       rect:
         serializedVersion: 2
-        x: 88
+        x: 13
         y: 0
-        width: 25
-        height: 39
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c0f31ef1c87ecb40800000000000000
-      internalID: 5462436172633731272
+      spriteID: 4f4bc894f0a817ba0800000000000000
+      internalID: -6092937022592469772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_3
+      name: weed_row_3_3
       rect:
         serializedVersion: 2
-        x: 128
+        x: 26
         y: 0
-        width: 24
-        height: 39
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bd44620a0c37fa20800000000000000
-      internalID: 3096009282527972791
+      spriteID: 0de4e227531c8ec60800000000000000
+      internalID: 7847734785986154192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_4
+      name: weed_row_3_4
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 24
-        height: 39
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
+        x: 47
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7112295159868b1b0800000000000000
-      internalID: -5640643543760232169
+      spriteID: 4e6e8cd650db12270800000000000000
+      internalID: 8224062225569605348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: normal_idle_side_5
+      name: weed_row_3_5
       rect:
         serializedVersion: 2
-        x: 208
-        y: 0
-        width: 24
-        height: 39
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
+        x: 52
+        y: 3
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dba4d78689dbab40800000000000000
-      internalID: 5452690945689824209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: normal_idle_side_6
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 0
-        width: 24
-        height: 39
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 641eb9066374adff0800000000000000
-      internalID: -10617750240370362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: normal_idle_side_7
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 25
-        height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 095368a960e3ead80800000000000000
-      internalID: -8237578470330845808
+      spriteID: 362861d0909ef2b70800000000000000
+      internalID: 8876569615654093411
       vertices: []
       indices: 
       edges: []
@@ -300,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f995da1570fed414c91ae4349ff9e43f
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      normal_idle_side_0: -758422326898253109
-      normal_idle_side_1: 5244893269069251526
-      normal_idle_side_2: 5462436172633731272
-      normal_idle_side_3: 3096009282527972791
-      normal_idle_side_4: -5640643543760232169
-      normal_idle_side_5: 5452690945689824209
-      normal_idle_side_6: -10617750240370362
-      normal_idle_side_7: -8237578470330845808
+      weed_row_3_0: 8696345610160548460
+      weed_row_3_1: -7075441698610027739
+      weed_row_3_2: -6092937022592469772
+      weed_row_3_3: 7847734785986154192
+      weed_row_3_4: 8224062225569605348
+      weed_row_3_5: 8876569615654093411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

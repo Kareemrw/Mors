@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 271b8d9edfd1c294ea55de05fafdd8a1
+guid: e937b1920e905194a9877f8d7f5384b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7345612170975604195
-    second: 4_farmhouse_0
+      213: 6923666941639841893
+    second: moomoo_sick_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 4_farmhouse_0
+      name: moomoo_sick_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 161
-        height: 190
+        width: 32
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ed69ccc95bd0f560800000000000000
-      internalID: 7345612170975604195
+      spriteID: 568de87766ec51060800000000000000
+      internalID: 6923666941639841893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moomoo_sick_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737f91a06a4bfbd4f9d20f7d35217885
+      internalID: -2125153715
       vertices: []
       indices: 
       edges: []
@@ -125,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 42e576f8f34418841a1f1af99941e01c
+    spriteID: 587774eb83ec6434ebc206c73171d313
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +157,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      4_farmhouse_0: 7345612170975604195
+      moomoo_sick_0: 6923666941639841893
+      moomoo_sick_1: -2125153715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

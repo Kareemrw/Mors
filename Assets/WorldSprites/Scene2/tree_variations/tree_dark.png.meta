@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bd55d16ad7f31ec45986b2448cfa9817
+guid: 3ab3de7b1f7a7934fbda0ed0d092496f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4696760917660491729
-    second: bucket_0
+      213: 1859614857117621690
+    second: tree_dark_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bucket_0
+      name: tree_dark_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 66
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f20a8e374d0c1deb0800000000000000
-      internalID: -4696760917660491729
+      spriteID: abdd8812cddaec910800000000000000
+      internalID: 1859614857117621690
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a825f2e385fdb574189f33c9967e7a1e
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bucket_0: -4696760917660491729
+      tree_dark_0: 1859614857117621690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
