@@ -6,6 +6,7 @@ TagManager:
   tags:
   - River
   - Trough
+  - Bucket
   layers:
   - Default
   - TransparentFX
