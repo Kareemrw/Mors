@@ -17,28 +17,36 @@ public class ItemBox : MonoBehaviour
     }
 
     // Update is called once per frame
+    [System.Obsolete]
     void Update()
     {
-        if(bucket.active == true)
+        if (bucket.active == true)
         {
             PlayerTouchesBucket();
         }
-        
-        /*if(Input.GetKey(KeyCode.F))
+    }
+
+    /*private void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.otherCollider.tag == "River")
         {
-            if(trough.tag == "Trough")
-            {
-                filledBucket.SetActive(false);
-                //print("ye");
-            }
-            /*if(river.tag == "River")
-            {
+            emptyBucket.SetActive(false);
+            filledBucket.SetActive(true);
+            //Debug.Log("F key pressed");
+        }
+    }*/
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "River")
+        {
                 emptyBucket.SetActive(false);
                 filledBucket.SetActive(true);
-            }
-        }*/     
+                //Debug.Log("F key pressed");
+            
+        }
     }
-        
+
 
     public void PlayerTouchesBucket()
     {

@@ -4534,7 +4534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1221861683}
-  moveSpeed: 0.5
+  moveSpeed: 1
   hasItem: 0
   full: 0
 --- !u!212 &1221861680
@@ -4684,7 +4684,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221861677}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f347760f60ccc24fb270fc09a1df12d, type: 3}
   m_Name: 
