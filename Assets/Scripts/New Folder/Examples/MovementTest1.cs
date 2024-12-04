@@ -168,11 +168,11 @@ public class MovementTest1 : MonoBehaviour
     {
         speed = 0;
         moveSpeed = speed;
-        animator.SetFloat("Speed", 0);
     }
 
-    public void ResumeMovement()
+    public void ResumeMovement(float speed)
     {
-
+        speed = 1;
+        moveSpeed = speed;
     }
 }
