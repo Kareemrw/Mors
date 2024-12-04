@@ -163,4 +163,16 @@ public class MovementTest1 : MonoBehaviour
         }
         return false;
     }
+
+    public void PauseMovement(float speed)
+    {
+        speed = 0;
+        moveSpeed = speed;
+        animator.SetFloat("Speed", 0);
+    }
+
+    public void ResumeMovement()
+    {
+
+    }
 }

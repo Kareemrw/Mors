@@ -4689,11 +4689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f347760f60ccc24fb270fc09a1df12d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  river: {fileID: 1449064542}
-  trough: {fileID: 238086055}
   bucket: {fileID: 1264505275}
   emptyBucket: {fileID: 1256917369}
-  filledBucket: {fileID: 1995381259}
 --- !u!1 &1256917369
 GameObject:
   m_ObjectHideFlags: 0
@@ -7827,7 +7824,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 34588780140795708, guid: 352b4f7c81cfd7d49864c88d17e63028, type: 3}
       propertyPath: m_Name
-      value: LevelChangerRegular
+      value: FadeIn
       objectReference: {fileID: 0}
     - target: {fileID: 34588780140795708, guid: 352b4f7c81cfd7d49864c88d17e63028, type: 3}
       propertyPath: m_IsActive
