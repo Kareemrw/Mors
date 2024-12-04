@@ -4543,7 +4543,6 @@ GameObject:
   - component: {fileID: 1221861682}
   - component: {fileID: 1221861683}
   - component: {fileID: 1221861684}
-  - component: {fileID: 1221861685}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4737,20 +4736,6 @@ MonoBehaviour:
   repeatableLine: Hello again!
   textSpeed: 0.03
   isTalking: 0
---- !u!114 &1221861685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221861677}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f347760f60ccc24fb270fc09a1df12d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bucket: {fileID: 1264505275}
-  emptyBucket: {fileID: 1256917369}
 --- !u!114 &1221861686
 MonoBehaviour:
   m_ObjectHideFlags: 0
