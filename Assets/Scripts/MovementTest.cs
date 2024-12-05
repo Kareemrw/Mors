@@ -12,12 +12,14 @@ public class MovementTest : MonoBehaviour
     public float moveSpeed = 5f;
     public bool hasItem = false;
     public bool full = false;
+    public int sceneNum = 1;
     private bool isPlayerNearby = false;
-    private bool isIntroMonologueActive = true; // Flag for intro monologue
+    public bool isIntroMonologueActive = true; // Flag for intro monologue
     private Trough nearbyTrough = null; // Reference to the nearby trough
 
     public GameObject emptyBucket;
     public GameObject filledBucket;
+    public NPC npc;
 
     void Start()
     {
@@ -56,6 +58,10 @@ public class MovementTest : MonoBehaviour
         if (isPlayerNearby && Input.GetKeyDown(KeyCode.F))
         {
             HandleInteraction();
+        }
+        if(sceneNum == 2 && npc.talked == true)
+        {
+            animator.SetBool("Tired", true);
         }
     }
 
@@ -125,9 +131,10 @@ public class MovementTest : MonoBehaviour
                 Debug.Log("Picked up water from the river.");
                 hasItem = true;
                 ActivateFKey(false);
-
-                emptyBucket.SetActive(false);
-                filledBucket.SetActive(true);
+                if(emptyBucket != null && filledBucket != null){
+                    emptyBucket.SetActive(false);
+                    filledBucket.SetActive(true);
+                }
             }
             else if (hasItem && nearbyTrough != null && !nearbyTrough.IsFull())
             {
@@ -157,7 +164,7 @@ public class MovementTest : MonoBehaviour
         foreach (Dialogue dialogue in dialogues)
         {
             if (dialogue.IsDialogueActive())
-            {
+            { 
                 return true;
             }
         }

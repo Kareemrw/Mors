@@ -2,30 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent; 
-    public string[] lines;               
-    public string repeatableLine = "Hello again!"; 
+    public TextMeshProUGUI textComponent; // For dialogue text
+    public Image portraitImage;          // UI Image for portraits
+    public Image textBoxFrame;           // UI Image for text box frames
+    public string[] lines;               // Array of dialogue lines
+    public Sprite[] portraits;           // Array of portraits matching dialogue lines
+    public Sprite[] textBoxFrames;       // Array of text box frames matching dialogue lines
+    public string repeatableLine = "Hello again!";
+    public Sprite repeatablePortrait;    // Portrait for the repeatable line
+    public Sprite repeatableFrame;       // Text box frame for the repeatable line
     public float textSpeed = 0.03f;
     public bool isTalking = false;
-    private int index = 0;              
+
+    private int index = 0;
     private bool isDialogueActive = false;
-    private bool isDialogueExhausted = false; 
+    private bool isDialogueExhausted = false;
+
+    public MovementTest player;
 
     void Start()
     {
+        player = FindFirstObjectByType<MovementTest>();
         if (textComponent != null)
         {
-            //textComponent.text = string.Empty;
-            //textComponent.transform.parent.gameObject.SetActive(false); 
+            if (player.isIntroMonologueActive == false)
+            {
+                textComponent.text = string.Empty;
+                textComponent.transform.parent.gameObject.SetActive(false);
+            }
         }
     }
 
     void Update()
     {
-        if (isDialogueActive && Input.GetMouseButtonDown(0)) 
+        if (isDialogueActive && Input.GetKeyDown(KeyCode.E))
         {
             if (textComponent.text == GetCurrentLine())
             {
@@ -42,7 +56,7 @@ public class Dialogue : MonoBehaviour
     public void StartDialogue()
     {
         isTalking = true;
-        if (textComponent == null)
+        if (textComponent == null || portraitImage == null || textBoxFrame == null)
         {
             EndDialogue();
             return;
@@ -60,6 +74,9 @@ public class Dialogue : MonoBehaviour
         isDialogueActive = true;
         textComponent.transform.parent.gameObject.SetActive(true);
         textComponent.text = string.Empty;
+
+        UpdatePortrait();   // Update portrait for the first line
+        UpdateTextBoxFrame(); // Update text box frame for the first line
         StartCoroutine(TypeLine());
     }
 
@@ -78,6 +95,8 @@ public class Dialogue : MonoBehaviour
         {
             index++;
             textComponent.text = string.Empty;
+            UpdatePortrait();    // Update portrait for the next line
+            UpdateTextBoxFrame(); // Update text box frame for the next line
             StopAllCoroutines();
             StartCoroutine(TypeLine());
         }
@@ -106,9 +125,33 @@ public class Dialogue : MonoBehaviour
     {
         if (index < lines.Length)
         {
-            return lines[index]; 
+            return lines[index];
         }
-        return repeatableLine; 
+        return repeatableLine;
+    }
+
+    private void UpdatePortrait()
+    {
+        if (index < portraits.Length && portraits[index] != null)
+        {
+            portraitImage.sprite = portraits[index];
+        }
+        else
+        {
+            portraitImage.sprite = repeatablePortrait;
+        }
+    }
+
+    private void UpdateTextBoxFrame()
+    {
+        if (index < textBoxFrames.Length && textBoxFrames[index] != null)
+        {
+            textBoxFrame.sprite = textBoxFrames[index];
+        }
+        else
+        {
+            textBoxFrame.sprite = repeatableFrame;
+        }
     }
 
     public bool IsDialogueActive()
