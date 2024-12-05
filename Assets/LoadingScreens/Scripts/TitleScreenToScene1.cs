@@ -11,7 +11,7 @@ public class TitleScreenToScene1 : MonoBehaviour
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("DialogueTesting");
+        SceneManager.LoadScene("PracticeScene_Monika");
 
     }
 
@@ -19,7 +19,7 @@ public class TitleScreenToScene1 : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            FadeToLevel("DialogueTesting");
+            FadeToLevel("PracticeScene_Monika");
             //print("enters update");
         }
     }
