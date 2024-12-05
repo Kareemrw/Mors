@@ -2,27 +2,29 @@ using UnityEngine;
 using System.Collections;
 
 using UnityEngine.SceneManagement;
-
-public class SceneFade : MonoBehaviour
+public class Scene1ToLS : MonoBehaviour
 {
-
     public Animator animator;
 
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("DialogueTesting");
+        SceneManager.LoadScene("Scene1toLS");
 
     }
 
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(Input.GetMouseButtonDown(0))
+        FadeToLevel("Scene1toLS");
+    }
+    /*void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
         {
-            FadeToLevel("DialogueTesting");
+            FadeToLevel("Scene1toLS");
             //print("enters update");
         }
-    }
+    }*/
 
     public void FadeToLevel(string levelName)
     {

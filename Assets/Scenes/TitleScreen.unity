@@ -2463,6 +2463,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: SceneFade, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 7175644699775308783, guid: 8cb1da812f7fd1348bb8f01006039271, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: DialogueTesting
+      objectReference: {fileID: 0}
     - target: {fileID: 7537987832731318350, guid: 8cb1da812f7fd1348bb8f01006039271, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1053.3191

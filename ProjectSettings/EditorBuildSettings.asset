@@ -14,5 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: fc5f75edf4980664c8634265cc99d5dd
+  - enabled: 1
+    path: Assets/Scenes/Scene 3 Official.unity
+    guid: 42d74d176d7e10746bd84c0584075b48
+  - enabled: 1
+    path: Assets/Scenes/PracticeScene_Monika.unity
+    guid: d184d7b3dc5140146bd6c71c99740dab
+  - enabled: 1
+    path: Assets/Scenes/Loading Screens/Scene1toLS.unity
+    guid: 9a845297b687945409a7528636b89d7c
+  - enabled: 1
+    path: Assets/Scenes/Scene 2 Testing.unity
+    guid: 0e84e39c198cde64b9f0827009dad372
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
