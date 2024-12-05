@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cc42444674897e245879fc4cf7502321
+guid: 6214007592ab2434991b877a99c69627
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3452501871115773172
-    second: IMG_2734_0
+      213: -797035309884366784
+    second: stage_3_collision_boxes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2734_0
+      name: stage_3_collision_boxes_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0bd5c127df3610d0800000000000000
-      internalID: -3452501871115773172
+      spriteID: 04026e8cb9c50f4f0800000000000000
+      internalID: -797035309884366784
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      IMG_2734_0: -3452501871115773172
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
