@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cc42444674897e245879fc4cf7502321
+guid: ee45eab9bbceb8746b837e65a6e3e5b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3452501871115773172
-    second: IMG_2734_0
+      213: -244803471149936961
+    second: dead_tree_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2734_0
+      name: dead_tree_3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0bd5c127df3610d0800000000000000
-      internalID: -3452501871115773172
+      spriteID: fbe435e3a884a9cf0800000000000000
+      internalID: -244803471149936961
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2734_0: -3452501871115773172
+      dead_tree_3_0: -244803471149936961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
