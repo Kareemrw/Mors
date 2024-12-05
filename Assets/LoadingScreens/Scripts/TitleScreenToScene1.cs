@@ -3,7 +3,7 @@ using System.Collections;
 
 using UnityEngine.SceneManagement;
 
-public class SceneFade : MonoBehaviour
+public class TitleScreenToScene1 : MonoBehaviour
 {
 
     public Animator animator;
@@ -11,7 +11,7 @@ public class SceneFade : MonoBehaviour
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("DialogueTesting");
+        SceneManager.LoadScene("PracticeScene_Monika");
 
     }
 
@@ -19,7 +19,7 @@ public class SceneFade : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            FadeToLevel("DialogueTesting");
+            FadeToLevel("PracticeScene_Monika");
             //print("enters update");
         }
     }

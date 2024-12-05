@@ -7,4 +7,14 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("PracticeScene_Monika");
     }
+
+    public void GoToSceneTwo()
+    {
+        SceneManager.LoadScene("DialogueTesting");
+    }
+
+    public void GoToSceneThree()
+    {
+        SceneManager.LoadScene("Scene 3 Official");
+    }
 }

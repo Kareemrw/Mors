@@ -6,9 +6,11 @@ public class Pickup : MonoBehaviour
     public MovementTest player;
     private bool isPlayerNearby = false;
 
+    public GameObject emptyBucket;
+
     void Start()
     {
-        
+        emptyBucket.SetActive(false);
     }
     void Update()
     {
@@ -48,6 +50,8 @@ public class Pickup : MonoBehaviour
         gameObject.SetActive(false); // Hide the bucket
         //player = FindObjectOfType<MovementTest>();
         //player.hasItem = true;
+
+        emptyBucket.SetActive(true);
     }
     private void ActivateFKey(bool isActive)
     {

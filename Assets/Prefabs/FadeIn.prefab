@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1972370048242410860}
   - component: {fileID: 874838359969714709}
   m_Layer: 0
-  m_Name: LevelChangerReGULAR
+  m_Name: FadeIn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

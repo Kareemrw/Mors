@@ -16,10 +16,16 @@ public class MovementTest : MonoBehaviour
     private bool isIntroMonologueActive = true; // Flag for intro monologue
     private Trough nearbyTrough = null; // Reference to the nearby trough
 
+    public GameObject emptyBucket;
+    public GameObject filledBucket;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         StartCoroutine(StartIntroMonologue());
+
+        emptyBucket.SetActive(false);
+        filledBucket.SetActive(false);
     }
 
     void Update()
@@ -119,6 +125,9 @@ public class MovementTest : MonoBehaviour
                 Debug.Log("Picked up water from the river.");
                 hasItem = true;
                 ActivateFKey(false);
+
+                emptyBucket.SetActive(false);
+                filledBucket.SetActive(true);
             }
             else if (hasItem && nearbyTrough != null && !nearbyTrough.IsFull())
             {
@@ -127,6 +136,8 @@ public class MovementTest : MonoBehaviour
                 full = true;
                 hasItem = false;
                 ActivateFKey(false);
+
+                filledBucket.SetActive(false);
             }
         }
     }
@@ -151,5 +162,17 @@ public class MovementTest : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void PauseMovement(float speed)
+    {
+        speed = 0;
+        moveSpeed = speed;
+    }
+
+    public void ResumeMovement(float speed)
+    {
+        speed = 1;
+        moveSpeed = speed;
     }
 }
