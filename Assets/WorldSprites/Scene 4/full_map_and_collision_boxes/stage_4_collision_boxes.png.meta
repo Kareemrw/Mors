@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stage_4_collision_boxes_0: -9202399205941441985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
