@@ -2250,7 +2250,7 @@ MonoBehaviour:
   moveSpeed: 0.5
   hasItem: 0
   full: 0
-  sceneNum: 4
+  sceneNum: 3
   isIntroMonologueActive: 0
   emptyBucket: {fileID: 1739272973}
   filledBucket: {fileID: 201113178}
@@ -3225,6 +3225,7 @@ MonoBehaviour:
   textSpeed: 0.03
   isTalking: 0
   player: {fileID: 0}
+  npc: {fileID: 0}
 --- !u!61 &1534590325
 BoxCollider2D:
   m_ObjectHideFlags: 0
