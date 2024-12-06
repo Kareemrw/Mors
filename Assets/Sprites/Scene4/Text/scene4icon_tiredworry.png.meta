@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      scene4icon_tiredworry_0: -5508195358966258910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

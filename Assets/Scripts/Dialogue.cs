@@ -23,10 +23,12 @@ public class Dialogue : MonoBehaviour
     private bool isDialogueExhausted = false;
 
     public MovementTest player;
+    public NPC npc;
 
     void Start()
     {
         player = FindFirstObjectByType<MovementTest>();
+        npc= FindFirstObjectByType<NPC>();
         if (textComponent != null)
         {
             if (player.isIntroMonologueActive == false)
@@ -55,6 +57,10 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        if (player.sceneNum == 5 && npc.talked == true)
+        {
+            player.animator.SetBool("Sitting", true);
+        }
         isTalking = true;
         if (textComponent == null || portraitImage == null || textBoxFrame == null)
         {
