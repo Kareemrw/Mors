@@ -2250,7 +2250,7 @@ MonoBehaviour:
   moveSpeed: 0.5
   hasItem: 0
   full: 0
-  sceneNum: 4
+  sceneNum: 3
   isIntroMonologueActive: 0
   emptyBucket: {fileID: 1739272973}
   filledBucket: {fileID: 201113178}
@@ -3197,6 +3197,16 @@ MonoBehaviour:
   - Thank you, but I wish this pain in my chest would go away. I must find the truth
     and save us all.
   - "You\u2019re our final hope. And good luck, Willow."
+  - So this has been the root of all my troubles.
+  - A simple lake. It appears to be fully contaminated with a toxic substance.
+  - I wonder what would happen if I threw something in.
+  - Oh, I can use one of my feathers.
+  - "It\u2019s completely dissolved... This must be the main source of the contamination
+    that has been spreading through the river."
+  - There is nothing that can be done. It has already spread to every water source
+    in the area.
+  - I have to accept that I am unable to save my farm. I would rather return home
+    and spend our final moments together.
   portraits:
   - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
   - {fileID: 783846942071874004, guid: 910eddec7db47a1438e892f302d10169, type: 3}
@@ -3208,6 +3218,13 @@ MonoBehaviour:
   - {fileID: 783846942071874004, guid: 910eddec7db47a1438e892f302d10169, type: 3}
   - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
   - {fileID: 783846942071874004, guid: 910eddec7db47a1438e892f302d10169, type: 3}
+  - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
+  - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
+  - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
+  - {fileID: -2962893855075701979, guid: 41572048f4d6f6b4e84788bc79720986, type: 3}
+  - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
+  - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
+  - {fileID: 4070369439745328500, guid: 762f613252b9f5343a6a582eecd7c428, type: 3}
   textBoxFrames:
   - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
   - {fileID: 1118246136610328713, guid: 31e3cea76bb12ba4fae76b70b7b1a805, type: 3}
@@ -3219,12 +3236,20 @@ MonoBehaviour:
   - {fileID: 1118246136610328713, guid: 31e3cea76bb12ba4fae76b70b7b1a805, type: 3}
   - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
   - {fileID: 1118246136610328713, guid: 31e3cea76bb12ba4fae76b70b7b1a805, type: 3}
+  - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
+  - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
+  - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
+  - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
+  - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
+  - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
+  - {fileID: 6115080820296836516, guid: 55c4741f8b507404385c520a1d86b001, type: 3}
   repeatableLine: You're our only hope Willow...
   repeatablePortrait: {fileID: 783846942071874004, guid: 910eddec7db47a1438e892f302d10169, type: 3}
   repeatableFrame: {fileID: 1118246136610328713, guid: 31e3cea76bb12ba4fae76b70b7b1a805, type: 3}
   textSpeed: 0.03
   isTalking: 0
   player: {fileID: 0}
+  npc: {fileID: 0}
 --- !u!61 &1534590325
 BoxCollider2D:
   m_ObjectHideFlags: 0

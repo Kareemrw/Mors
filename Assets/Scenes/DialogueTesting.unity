@@ -5139,8 +5139,9 @@ MonoBehaviour:
   repeatablePortrait: {fileID: 0}
   repeatableFrame: {fileID: 0}
   textSpeed: 0.03
-  isTalking: 0
-  player: {fileID: 0}
+  isTalking: 1
+  player: {fileID: 1221861679}
+  npc: {fileID: 1853257637}
 --- !u!1 &1264505275
 GameObject:
   m_ObjectHideFlags: 0
@@ -7774,6 +7775,7 @@ MonoBehaviour:
   textSpeed: 0.03
   isTalking: 0
   player: {fileID: 0}
+  npc: {fileID: 0}
 --- !u!61 &1853257633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8009,6 +8011,7 @@ MonoBehaviour:
   textSpeed: 0.03
   isTalking: 0
   player: {fileID: 1221861679}
+  npc: {fileID: 0}
 --- !u!1001 &1895861103
 PrefabInstance:
   m_ObjectHideFlags: 0
