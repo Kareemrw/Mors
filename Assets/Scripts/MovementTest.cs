@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovementTest : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class MovementTest : MonoBehaviour
     public GameObject emptyBucket;
     public GameObject filledBucket;
     public NPC npc;
+
+    public Animator fade;
+    public GameObject minimenu;
 
     void Start()
     {
@@ -63,7 +67,26 @@ public class MovementTest : MonoBehaviour
         {
             animator.SetBool("Tired", true);
         }
-        
+
+
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        if (currentScene.name == "Scene 5 Official" && npc.talked == true)
+        {
+            print("enters if cred");
+            fade.speed = 0.5f;
+            fade.SetTrigger("FadeOut");
+            minimenu.SetActive(false);
+            StartCoroutine(Pause());
+        }
+    }
+
+
+    IEnumerator Pause()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("EndCredits");
+
     }
 
     private void FixedUpdate()
@@ -80,7 +103,10 @@ public class MovementTest : MonoBehaviour
         {
             rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
         }
+
+        
     }
+
 
     private IEnumerator StartIntroMonologue()
     {

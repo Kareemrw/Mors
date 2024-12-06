@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent; // For dialogue text
@@ -24,6 +26,7 @@ public class Dialogue : MonoBehaviour
 
     public MovementTest player;
     public NPC npc;
+
 
     void Start()
     {
@@ -126,6 +129,7 @@ public class Dialogue : MonoBehaviour
         isDialogueActive = false;
         isTalking = false;
     }
+
 
     private string GetCurrentLine()
     {
