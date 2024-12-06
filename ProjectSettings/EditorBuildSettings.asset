@@ -8,20 +8,41 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/PracticeScene_Monika.unity
+    guid: d184d7b3dc5140146bd6c71c99740dab
+  - enabled: 0
+    path: Assets/Scenes/Scene 2 Testing.unity
+    guid: 0e84e39c198cde64b9f0827009dad372
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: fc5f75edf4980664c8634265cc99d5dd
   - enabled: 1
-    path: Assets/Scenes/Scene 3 Official.unity
-    guid: 42d74d176d7e10746bd84c0584075b48
-  - enabled: 1
-    path: Assets/Scenes/PracticeScene_Monika.unity
-    guid: d184d7b3dc5140146bd6c71c99740dab
+    path: Assets/Scenes/DialogueTesting.unity
+    guid: 0e6d3ae78aea4c4478dbe7518b1d82c1
   - enabled: 1
     path: Assets/LoadingScreens/Scenes/Scene1toLS.unity
     guid: 9a845297b687945409a7528636b89d7c
   - enabled: 1
-    path: Assets/Scenes/Scene 2 Testing.unity
-    guid: 0e84e39c198cde64b9f0827009dad372
+    path: Assets/Scenes/Scene 2 Testing Kareem.unity
+    guid: c421ec435dcb20d428aad1b4dcd35044
+  - enabled: 1
+    path: Assets/LoadingScreens/Scenes/Scene2toLS.unity
+    guid: 4e5594d15af0af04dbd6bf1607c889ea
+  - enabled: 1
+    path: Assets/Scenes/Scene 3 Official.unity
+    guid: 42d74d176d7e10746bd84c0584075b48
+  - enabled: 1
+    path: Assets/LoadingScreens/Scenes/Scene3toLS.unity
+    guid: accfabdebea133d4fa5f5123f9b6f5d8
+  - enabled: 1
+    path: Assets/Scenes/Scene 4 Official.unity
+    guid: b0c7559e76a87c6458d14d631bf42bf7
+  - enabled: 1
+    path: Assets/LoadingScreens/Scenes/Scene4toLS.unity
+    guid: 510d9cd591ecbf84cb947c0089cdb21e
+  - enabled: 1
+    path: Assets/Scenes/Scene 5 Official.unity
+    guid: 22fd7025a4596c543b0a34dc5c488e7e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

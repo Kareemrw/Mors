@@ -2,27 +2,29 @@ using UnityEngine;
 using System.Collections;
 
 using UnityEngine.SceneManagement;
-
-public class TitleScreenToScene1 : MonoBehaviour
+public class Scene3ToLS : MonoBehaviour
 {
-
     public Animator animator;
 
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("DialogueTesting");
+        SceneManager.LoadScene("Scene3toLS");
 
     }
 
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(Input.GetMouseButtonDown(0))
+        FadeToLevel("Scene3toLS");
+    }
+    /*void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
         {
-            FadeToLevel("DialogueTesting");
+            FadeToLevel("Scene1toLS");
             //print("enters update");
         }
-    }
+    }*/
 
     public void FadeToLevel(string levelName)
     {

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class LSToScene2 : MonoBehaviour
+public class LSToScene3 : MonoBehaviour
 {
     public float timeToNextScene = 5f; 
 
@@ -18,7 +18,7 @@ public class LSToScene2 : MonoBehaviour
         if (timer >= timeToNextScene)
 
         {
-            FadeToLevel("Scene 2 Testing Kareem");
+            FadeToLevel("Scene 3 Official");
 
         }
     }
@@ -26,7 +26,7 @@ public class LSToScene2 : MonoBehaviour
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Scene 2 Testing Kareem");
+        SceneManager.LoadScene("Scene 3 Official");
 
     }
     
