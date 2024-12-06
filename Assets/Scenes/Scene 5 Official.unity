@@ -441,14 +441,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2503288516842493781, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -765.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 2503288516842493781, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -610.83
-      objectReference: {fileID: 0}
     - target: {fileID: 3215741258409651269, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 771.34674
@@ -489,17 +481,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8209275456315219956, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8443436703965109531, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
       propertyPath: m_Name
       value: FadeWCollision
       objectReference: {fileID: 0}
     - target: {fileID: 8443436703965109531, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -930,10 +918,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1663108637467535652, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1952460221811045743, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -944,7 +928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4416570940783418532, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4658847664264852283, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1651,7 +1635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 34588780140795708, guid: 352b4f7c81cfd7d49864c88d17e63028, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1972370048242410860, guid: 352b4f7c81cfd7d49864c88d17e63028, type: 3}
       propertyPath: m_LocalPosition.x
