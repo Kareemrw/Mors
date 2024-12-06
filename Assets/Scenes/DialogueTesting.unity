@@ -473,6 +473,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1663108637467535652, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4416570940783418532, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_Name
       value: MiniMenu
@@ -536,6 +540,10 @@ PrefabInstance:
     - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: MovementTest, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument

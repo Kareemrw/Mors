@@ -179,7 +179,8 @@ public class MovementTest : MonoBehaviour
 
     public void ResumeMovement(float speed)
     {
-        speed = 1;
+        speed = .5f;
         moveSpeed = speed;
+        rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
     }
 }
