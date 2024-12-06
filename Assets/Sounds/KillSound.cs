@@ -12,6 +12,10 @@ public class KillSound : MonoBehaviour
         {
             StartCoroutine(Pause());
         }
+        if(currentScene.name == "Scene4toLS")
+        {
+            StartCoroutine(Pause());
+        }
     }
 
     IEnumerator Pause()
