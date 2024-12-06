@@ -84,7 +84,7 @@ public class MovementTest : MonoBehaviour
 
     IEnumerator Pause()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         SceneManager.LoadScene("EndCredits");
 
     }
