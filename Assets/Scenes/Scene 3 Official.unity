@@ -1027,6 +1027,77 @@ PolygonCollider2D:
       - {x: -0.69123006, y: -0.010030322}
       - {x: -0.6156548, y: -0.015433632}
   m_UseDelaunayMesh: 0
+--- !u!1001 &513816631
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5319347544525052411, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165645131488294715, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_Name
+      value: ItemBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0859745
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07256259
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.6811502
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504256865841716178, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+--- !u!1 &513816632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 465056675270233594, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+  m_PrefabInstance: {fileID: 513816631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &513816633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5040432253031215858, guid: cd9bbbbaa7814f4428f3f8821b4d1acb, type: 3}
+  m_PrefabInstance: {fileID: 513816631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &633567777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,8 +2040,8 @@ MonoBehaviour:
   full: 0
   sceneNum: 3
   isIntroMonologueActive: 0
-  emptyBucket: {fileID: 0}
-  filledBucket: {fileID: 0}
+  emptyBucket: {fileID: 513816633}
+  filledBucket: {fileID: 513816632}
   npc: {fileID: 2120514353}
 --- !u!95 &971563148
 Animator:
@@ -2200,6 +2271,50 @@ PrefabInstance:
     - target: {fileID: 4658847664264852283, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 971563148}
+    - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 971563147}
+    - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResumeMovement
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MovementTest, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121390868329024338, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7298799585703918869, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 971563148}
+    - target: {fileID: 7298799585703918869, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 971563147}
+    - target: {fileID: 7298799585703918869, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 7298799585703918869, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PauseMovement
+      objectReference: {fileID: 0}
+    - target: {fileID: 7298799585703918869, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MovementTest, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5127,6 +5242,7 @@ SceneRoots:
   - {fileID: 1574828862}
   - {fileID: 258954710}
   - {fileID: 1073897315}
+  - {fileID: 513816631}
   - {fileID: 8466962}
   - {fileID: 1513670427}
   - {fileID: 971563152}

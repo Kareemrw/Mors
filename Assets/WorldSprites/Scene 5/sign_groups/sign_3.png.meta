@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: c2683dfb1bb9de944a77e7610d8c964d
+guid: dfd987f86cd2d7d41a7f1990da4ce4c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8296343572076139505
-    second: fence_row_5_0
-  - first:
-      213: 3708458664154628522
-    second: fence_row_5_1
+      213: -4953277140531567813
+    second: sign_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fence_row_5_0
+      name: sign_3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 76
+        width: 7
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0c6ec32a777ddc80800000000000000
-      internalID: -8296343572076139505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fence_row_5_1
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 0
-        width: 28
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa1082db187177330800000000000000
-      internalID: 3708458664154628522
+      spriteID: b33ad8c2fac624bb0800000000000000
+      internalID: -4953277140531567813
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fence_row_5_0: -8296343572076139505
-      fence_row_5_1: 3708458664154628522
+      sign_3_0: -4953277140531567813
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
