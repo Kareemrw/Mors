@@ -16,7 +16,7 @@ public class KillSound : MonoBehaviour
 
     IEnumerator Pause()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         Destroy(gameObject);
 
     }
