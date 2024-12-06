@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 09b1cdd733bf5ff41b826d4251053ffe
+guid: d4e09074a2dcc2c46a0cbfacb62ee621
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1560631606599553884
-    second: fence_row_2_0
+      213: 2464007873352561409
+    second: scene4_tired_walk_side_0
   - first:
-      213: 8287631703756013464
-    second: fence_row_2_1
+      213: 8662677929691427769
+    second: scene4_tired_walk_side_1
   - first:
-      213: 6349428699690003984
-    second: fence_row_2_2
+      213: -1138675530063400500
+    second: scene4_tired_walk_side_2
   - first:
-      213: 5512074166894266068
-    second: fence_row_2_3
+      213: 6943345276286829093
+    second: scene4_tired_walk_side_3
   - first:
-      213: -5871917267648807948
-    second: fence_row_2_4
+      213: -7886881595528759888
+    second: scene4_tired_walk_side_4
+  - first:
+      213: -4627683351465837601
+    second: scene4_tired_walk_side_5
+  - first:
+      213: 316727462252728965
+    second: scene4_tired_walk_side_6
+  - first:
+      213: 3616874146132008188
+    second: scene4_tired_walk_side_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,111 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fence_row_2_0
+      name: scene4_tired_walk_side_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 8
         y: 0
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 25
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c531d987d2a78a510800000000000000
-      internalID: 1560631606599553884
+      spriteID: 103f1fe1b1ae13220800000000000000
+      internalID: 2464007873352561409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_1
+      name: scene4_tired_walk_side_1
       rect:
         serializedVersion: 2
-        x: 143
+        x: 48
         y: 0
-        width: 82
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89f74a3ff15930370800000000000000
-      internalID: 8287631703756013464
+      spriteID: 9b3bfd22ea3083870800000000000000
+      internalID: 8662677929691427769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_2
+      name: scene4_tired_walk_side_2
       rect:
         serializedVersion: 2
-        x: 239
+        x: 88
         y: 0
-        width: 45
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01e61bbf2c3bd1850800000000000000
-      internalID: 6349428699690003984
+      spriteID: cc1342c63ac9230f0800000000000000
+      internalID: -1138675530063400500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_3
+      name: scene4_tired_walk_side_3
       rect:
         serializedVersion: 2
-        x: 324
+        x: 128
         y: 0
-        width: 29
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 25
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d607552042de7c40800000000000000
-      internalID: 5512074166894266068
+      spriteID: 52286f9cdb7bb5060800000000000000
+      internalID: 6943345276286829093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_4
+      name: scene4_tired_walk_side_4
       rect:
         serializedVersion: 2
-        x: 415
+        x: 168
         y: 0
-        width: 76
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 25
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fb7f471b52c28ea0800000000000000
-      internalID: -5871917267648807948
+      spriteID: 0b531f0b9fa2c8290800000000000000
+      internalID: -7886881595528759888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scene4_tired_walk_side_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbb3e6a28a27cfb0800000000000000
+      internalID: -4627683351465837601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scene4_tired_walk_side_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5825f26e2fd356400800000000000000
+      internalID: 316727462252728965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scene4_tired_walk_side_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 25
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc1e757fd7b13230800000000000000
+      internalID: 3616874146132008188
       vertices: []
       indices: 
       edges: []
@@ -225,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 237b5cab291993840a1347354f899777
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fence_row_2_0: 1560631606599553884
-      fence_row_2_1: 8287631703756013464
-      fence_row_2_2: 6349428699690003984
-      fence_row_2_3: 5512074166894266068
-      fence_row_2_4: -5871917267648807948
+      scene4_tired_walk_side_0: 2464007873352561409
+      scene4_tired_walk_side_1: 8662677929691427769
+      scene4_tired_walk_side_2: -1138675530063400500
+      scene4_tired_walk_side_3: 6943345276286829093
+      scene4_tired_walk_side_4: -7886881595528759888
+      scene4_tired_walk_side_5: -4627683351465837601
+      scene4_tired_walk_side_6: 316727462252728965
+      scene4_tired_walk_side_7: 3616874146132008188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

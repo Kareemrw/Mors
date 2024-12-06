@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 09b1cdd733bf5ff41b826d4251053ffe
+guid: 79e4bb434c7d5f74bb04ab3aa1898d55
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1560631606599553884
-    second: fence_row_2_0
+      213: 1653702030396035197
+    second: scene4_tired_idle_front_0
   - first:
-      213: 8287631703756013464
-    second: fence_row_2_1
+      213: -7928101981872917741
+    second: scene4_tired_idle_front_1
   - first:
-      213: 6349428699690003984
-    second: fence_row_2_2
+      213: -7885380945192302028
+    second: scene4_tired_idle_front_2
   - first:
-      213: 5512074166894266068
-    second: fence_row_2_3
+      213: 2414217203679228810
+    second: scene4_tired_idle_front_3
   - first:
-      213: -5871917267648807948
-    second: fence_row_2_4
+      213: -634475268310680449
+    second: scene4_tired_idle_front_4
+  - first:
+      213: 9117102822157663901
+    second: scene4_tired_idle_front_5
+  - first:
+      213: -2909160385483329009
+    second: scene4_tired_idle_front_6
+  - first:
+      213: -6404889667913793377
+    second: scene4_tired_idle_front_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,111 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fence_row_2_0
+      name: scene4_tired_idle_front_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 18
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c531d987d2a78a510800000000000000
-      internalID: 1560631606599553884
+      spriteID: d7019162c3123f610800000000000000
+      internalID: 1653702030396035197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_1
+      name: scene4_tired_idle_front_1
       rect:
         serializedVersion: 2
-        x: 143
+        x: 51
         y: 0
-        width: 82
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 18
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89f74a3ff15930370800000000000000
-      internalID: 8287631703756013464
+      spriteID: 313f46b9049b9f190800000000000000
+      internalID: -7928101981872917741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_2
+      name: scene4_tired_idle_front_2
       rect:
         serializedVersion: 2
-        x: 239
+        x: 91
         y: 0
-        width: 45
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 18
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01e61bbf2c3bd1850800000000000000
-      internalID: 6349428699690003984
+      spriteID: 43acd231fcf719290800000000000000
+      internalID: -7885380945192302028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_3
+      name: scene4_tired_idle_front_3
       rect:
         serializedVersion: 2
-        x: 324
+        x: 130
         y: 0
-        width: 29
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 20
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d607552042de7c40800000000000000
-      internalID: 5512074166894266068
+      spriteID: a83ffe371c5018120800000000000000
+      internalID: 2414217203679228810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fence_row_2_4
+      name: scene4_tired_idle_front_4
       rect:
         serializedVersion: 2
-        x: 415
+        x: 170
         y: 0
-        width: 76
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 20
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fb7f471b52c28ea0800000000000000
-      internalID: -5871917267648807948
+      spriteID: f7c3295ea14e137f0800000000000000
+      internalID: -634475268310680449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scene4_tired_idle_front_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 20
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e3b6756b4768e70800000000000000
+      internalID: 9117102822157663901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scene4_tired_idle_front_6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 18
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02b0a4fa0690a7d0800000000000000
+      internalID: -2909160385483329009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scene4_tired_idle_front_7
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 18
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90cd6618c24d17a0800000000000000
+      internalID: -6404889667913793377
       vertices: []
       indices: 
       edges: []
@@ -225,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 02f29e44198144c43b24e609e820aa05
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fence_row_2_0: 1560631606599553884
-      fence_row_2_1: 8287631703756013464
-      fence_row_2_2: 6349428699690003984
-      fence_row_2_3: 5512074166894266068
-      fence_row_2_4: -5871917267648807948
+      scene4_tired_idle_front_0: 1653702030396035197
+      scene4_tired_idle_front_1: -7928101981872917741
+      scene4_tired_idle_front_2: -7885380945192302028
+      scene4_tired_idle_front_3: 2414217203679228810
+      scene4_tired_idle_front_4: -634475268310680449
+      scene4_tired_idle_front_5: 9117102822157663901
+      scene4_tired_idle_front_6: -2909160385483329009
+      scene4_tired_idle_front_7: -6404889667913793377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
