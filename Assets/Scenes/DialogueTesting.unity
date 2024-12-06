@@ -1043,7 +1043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 238086059}
   isFull: 0
-  filledBucket: {fileID: 0}
+  filledBucket: {fileID: 1004491276}
 --- !u!61 &238086061
 BoxCollider2D:
   m_ObjectHideFlags: 0
