@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class Scene2ToLS : MonoBehaviour
 {
     public Animator animator;
+    internal static bool active;
 
     IEnumerator Pause()
     {

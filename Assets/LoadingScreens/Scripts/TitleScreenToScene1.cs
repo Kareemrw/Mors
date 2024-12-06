@@ -10,7 +10,7 @@ public class TitleScreenToScene1 : MonoBehaviour
 
     IEnumerator Pause()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene("DialogueTesting");
 
     }
