@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: c2683dfb1bb9de944a77e7610d8c964d
+guid: b85bbb730c116e94caffd350b6317c07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8296343572076139505
-    second: fence_row_5_0
-  - first:
-      213: 3708458664154628522
-    second: fence_row_5_1
+      213: 7563325380676147342
+    second: dead_tree_4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fence_row_5_0
+      name: dead_tree_4_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 76
-        height: 16
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0c6ec32a777ddc80800000000000000
-      internalID: -8296343572076139505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fence_row_5_1
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 0
-        width: 28
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa1082db187177330800000000000000
-      internalID: 3708458664154628522
+      spriteID: e88d5eb8c5456f860800000000000000
+      internalID: 7563325380676147342
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fence_row_5_0: -8296343572076139505
-      fence_row_5_1: 3708458664154628522
+      dead_tree_4_0: 7563325380676147342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
