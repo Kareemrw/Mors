@@ -21,7 +21,7 @@ public class NPC : MonoBehaviour
     void Update()
     {
         // Handle dialogue activation
-        if (canTalk && !isCooldownActive && Input.GetKeyDown(KeyCode.E))
+        if (canTalk && !isCooldownActive && Input.GetKeyUp(KeyCode.E))
         {
             
             if (trough != null && trough.IsFull())
@@ -37,8 +37,8 @@ public class NPC : MonoBehaviour
 
             if (currentDialogue != null && !currentDialogue.IsDialogueActive())
             {
-                currentDialogue.StartDialogue();
                 talked = true;
+                currentDialogue.StartDialogue();
                 StartCoroutine(StartTalkCooldown()); // Start the cooldown after talking
             }
         }

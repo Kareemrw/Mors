@@ -63,6 +63,7 @@ public class MovementTest : MonoBehaviour
         {
             animator.SetBool("Tired", true);
         }
+        
     }
 
     private void FixedUpdate()
@@ -75,11 +76,15 @@ public class MovementTest : MonoBehaviour
         }
 
         // Move the player
-        rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
+        if ((sceneNum < 5)|| (sceneNum == 5 && npc.talked == false))
+        {
+            rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
+        }
     }
 
     private IEnumerator StartIntroMonologue()
     {
+      
         Dialogue introDialogue = GetComponent<Dialogue>();
         if (introDialogue != null)
         {
@@ -89,7 +94,11 @@ public class MovementTest : MonoBehaviour
                 yield return null; // Wait until the monologue ends
             }
         }
-
+        if(sceneNum == 4)
+        {
+            sceneNum++;
+        }
+        npc.talked = false;
         isIntroMonologueActive = false;
     }
 
