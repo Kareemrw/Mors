@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      scene4_textbox_frame_ferreti_0: 1118246136610328713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

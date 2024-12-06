@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      scene4_textbox_frame_willow_0: 6115080820296836516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

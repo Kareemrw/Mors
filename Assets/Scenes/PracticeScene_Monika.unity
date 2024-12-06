@@ -4546,7 +4546,6 @@ GameObject:
   - component: {fileID: 1221861678}
   - component: {fileID: 1221861682}
   - component: {fileID: 1221861683}
-  - component: {fileID: 1221861684}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4591,8 +4590,8 @@ BoxCollider2D:
   m_Offset: {x: -0.002375722, y: -0.014614984}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.1}
-    oldSize: {x: 0.2, y: 0.4}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.18, y: 0.4}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4720,26 +4719,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1221861684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221861677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5614ae1a13ec63f4f9afb6155036a144, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 830511298}
-  lines:
-  - 'Willow: Good morning, my beautiful farm. Time to start the day!'
-  - 'Willow: Wheres my bucket to fill up the animal troughs? '
-  - 'Willow: Oh, there it is. Time to grab some water! '
-  repeatableLine: Hello again!
-  textSpeed: 0.03
-  isTalking: 0
 --- !u!114 &1221861686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7376,13 +7355,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1663108637467535652, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
-      propertyPath: m_SortingOrder
+    - target: {fileID: 3006227146113372966, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454948533495627268, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904634276275869932, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904634276275869932, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4416570940783418532, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_Name
       value: MiniMenu (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638825190101588640, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4658847664264852283, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7424,11 +7419,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_Value
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_MaxValue
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1776069238}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetVolumeFromSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SoundSettings, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058117026029882730, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938458212945943904, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938458212945943904, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938458212945943904, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+--- !u!114 &1776069238 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 238256482008574468, guid: 710fdaf5e9ace4749b1ce59c88a42785, type: 3}
+  m_PrefabInstance: {fileID: 1776069236}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f0bc334fafc5c40b659282c87019c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1791454180
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,10 +7719,7 @@ GameObject:
   - component: {fileID: 1853257635}
   - component: {fileID: 1853257634}
   - component: {fileID: 1853257633}
-  - component: {fileID: 1853257632}
   - component: {fileID: 1853257636}
-  - component: {fileID: 1853257637}
-  - component: {fileID: 1853257638}
   m_Layer: 3
   m_Name: moomoo_sick_0
   m_TagString: Untagged
@@ -7676,24 +7727,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1853257632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853257631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5614ae1a13ec63f4f9afb6155036a144, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 830511298}
-  lines:
-  - 'Willow: Moo Moo looks thirsty, I have to fill up the trough.'
-  repeatableLine: 'Willow: Moo Moo looks thirsty, I have to fill up the trough.'
-  textSpeed: 0.03
-  isTalking: 0
 --- !u!61 &1853257633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7867,49 +7900,6 @@ PolygonCollider2D:
       - {x: 0.1613876, y: 0.12644129}
       - {x: 0.11416374, y: 0.18113883}
   m_UseDelaunayMesh: 0
---- !u!114 &1853257637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853257631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaf0f4b9b8649c04cb9a7e0664f71730, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultDialogue: {fileID: 1853257632}
-  specialDialogue: {fileID: 1853257638}
-  trough: {fileID: 0}
-  player: {fileID: 0}
---- !u!114 &1853257638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853257631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5614ae1a13ec63f4f9afb6155036a144, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 830511298}
-  lines:
-  - 'Willow: Oh, Moo Moo! Whats wrong? Are you okay?'
-  - 'Willow: Come on, get up. There is no way you are sick. You are my healthiest
-    dairy cow.'
-  - 'Willow: Come on girl, please drink some water.'
-  - 'Willow: She''s dead...'
-  - 'Willow: Okay this is no big deal. I have struggled with my crops and animals
-    before. I can overcome this obstacle. There is no way my plants and animals will
-    die.'
-  - 'Willow: No, no. I refuse to believe that. I can save them. I just have to find
-    the source of the water contamination. It is all going to be okay.'
-  repeatableLine: 'WIllow: I need to find the source of this water contamination...'
-  textSpeed: 0.03
-  isTalking: 0
 --- !u!1 &1874587984
 GameObject:
   m_ObjectHideFlags: 0
@@ -8608,6 +8598,10 @@ PrefabInstance:
     - target: {fileID: 8443436703965109531, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
       propertyPath: m_Name
       value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443436703965109531, guid: 7fe98284246b2754d88d1d4e7e76c4bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

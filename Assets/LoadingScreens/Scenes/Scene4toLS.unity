@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 008817ae97e1aa049bdf509375a0d681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToNextScene: 5
+  timeToNextScene: 8
   animator: {fileID: 751979065}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      scene4icon_tiredbags_0: 4070369439745328500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
